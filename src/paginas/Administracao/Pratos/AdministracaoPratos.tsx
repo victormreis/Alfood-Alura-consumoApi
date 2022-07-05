@@ -59,7 +59,7 @@ export default function AdministracaoPratos() {
                            [ <a href={prato.imagem} target='_blank'>Ver imagem</a> ]
                         </TableCell>
                         <TableCell>
-                            <Link  to={`/admin/prato/${prato.id}`}>Editar</Link>
+                            <Link  to={`/admin/pratos/${prato.id}`}>Editar</Link>
                         </TableCell>
                         <TableCell>
                             <Button variant="outlined" color="error" onClick={() => excluir(prato)} >
